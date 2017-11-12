@@ -1,0 +1,31 @@
+{
+  "description": "Laravel blog content with vuejs support",
+  "name": "bantenprov/vue-blog",
+  "type": "library",
+  "homepage": "https://github.com/bantenprov/vue-blog",
+  "authors": [
+    {
+      "name": "bantenprov",
+      "email": "developer.bantenprov@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/bantenprov/vue-blog",
+    "issues": "https://github.com/bantenprov/vue-blog/issues",
+    "wiki": "https://github.com/bantenprov/vue-blog/wiki"
+  },
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+        "files": [
+            "src/helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Bantenprov\\VueBlog\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
