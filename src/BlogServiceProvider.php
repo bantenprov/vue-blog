@@ -51,15 +51,15 @@ class BlogServiceProvider extends ServiceProvider
 
     protected function viewHandle()
     {
-        $packageViewsPath = __DIR__.'/resources/assets';
+        $packageViewsPath = __DIR__.'/resources/assets/js/components';
         $this->publishes([
-            $packageViewsPath => resource_path('assets'),
+            $packageViewsPath => resource_path('assets/js/components'),
         ], 'vue_assets');
     }
 
     protected function migrationHandle()
     {
-        $packageMigrationsPath = __DIR__.'/database/migrations';
+        $packageMigrationsPath = __DIR__.'/migrations';
         $this->publishes([
             $packageMigrationsPath => database_path('migrations')
         ], 'vue_migrations');

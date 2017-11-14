@@ -9,10 +9,11 @@ This package is under development.
 ## Install Laravel :
 ```bash
 $ composer create-project --prefer-dist laravel/laravel project-name "5.4.*"
+$ cd project-name
 $ php artisan make:auth
 ```
 
-add in layout/app.php after
+add in layout/app.blade.php after
 ```html
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
@@ -21,11 +22,15 @@ add in layout/app.php after
 
 ## Install VueJs :
 ```bash
-$ cd my-project
-
 $ npm install
 # latest stable
 $ npm install vue
+$ npm run dev
+```
+
+## Install Vue Blog :
+```bash
+$ composer require bantenprov/vue-blog "1.0.0"
 ```
 
 Add the package service provider to the `providers` array on `/config/app.php`:
@@ -64,6 +69,15 @@ class User extends Authenticatable
 }
 ```
 
+Change app.js in resources/assets/js/app.js
+```html
+// Vue.component('example', require('./components/Example.vue'));
+//
+// const app = new Vue({
+//     el: '#app'
+// });
+Vue.component('vue-pagination', require('./components/pagination.vue'));
+```
 
 ## Artisan command :
 
