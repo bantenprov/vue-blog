@@ -18,6 +18,7 @@ add in layout/app.blade.php after
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
 <script>  var base_url = "{{ url('/') }}";</script>
+@stack('script')
 ```
 
 ## Install VueJs :
@@ -84,5 +85,6 @@ Vue.component('vue-pagination', require('./components/pagination.vue'));
 ```bash
 $ php artisan vendor:publish --tag=vue_assets
 $ php artisan vendor:publish --tag=vue_migrations
+$ npm run dev
 $ php artisan migrate
 ```
