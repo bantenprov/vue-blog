@@ -31,7 +31,7 @@ $ npm run dev
 
 ## Install Vue Blog :
 ```bash
-$ composer require bantenprov/vue-blog "1.0.0"
+$ composer require bantenprov/vue-blog:"1.0.0"
 ```
 
 Add the package service provider to the `providers` array on `/config/app.php`:
