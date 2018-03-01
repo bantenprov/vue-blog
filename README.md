@@ -1,4 +1,15 @@
 # Vue Blog
+
+[![Join the chat at https://gitter.im/vue-blog/Lobby](https://badges.gitter.im/vue-blog/Lobby.svg)](https://gitter.im/vue-blog/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/vue-blog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/vue-blog/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/vue-blog/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/vue-blog/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/bantenprov/vue-blog/v/stable)](https://packagist.org/packages/bantenprov/vue-blog)
+[![Total Downloads](https://poser.pugx.org/bantenprov/vue-blog/downloads)](https://packagist.org/packages/bantenprov/vue-blog)
+[![Latest Unstable Version](https://poser.pugx.org/bantenprov/vue-blog/v/unstable)](https://packagist.org/packages/bantenprov/vue-blog)
+[![License](https://poser.pugx.org/bantenprov/vue-blog/license)](https://packagist.org/packages/bantenprov/vue-blog)
+[![Monthly Downloads](https://poser.pugx.org/bantenprov/vue-blog/d/monthly)](https://packagist.org/packages/bantenprov/vue-blog)
+[![Daily Downloads](https://poser.pugx.org/bantenprov/vue-blog/d/daily)](https://packagist.org/packages/bantenprov/vue-blog)
+
 Laravel blog content with vuejs suport
 ## [TODO : ](https://github.com/bantenprov/vue-blog/blob/master/TODO.md) :
 
@@ -8,8 +19,8 @@ This package is under development.
 
 ## Install Laravel :
 ```bash
-$ composer create-project --prefer-dist laravel/laravel project-name "5.4.*"
-$ cd project-name
+$ composer create-project bantenprov/tanara:dev-dev htdocs
+$ cd htdocs
 $ php artisan make:auth
 ```
 
